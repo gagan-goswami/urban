@@ -1,0 +1,38 @@
+@media (max-width: 475px) {
+  .social-main {
+    flex-direction: column;
+  }
+
+  .footer .social-main .app-links {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer .social-main .app-links .app-link {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .info .info-item {
+    margin-bottom: 25px;
+  }
+
+  .header .offcanvas-body {
+    background-color: var(--grey);
+  }
+
+  .header .nav-link::before {
+    display: none;
+  }
+
+  .header .btn-close {
+    background-color: var(--grey);
+  }
+}
+
+@media (max-width: 600px) {
+  .header .top-bar {
+    justify-content: center;
+  }
+}
