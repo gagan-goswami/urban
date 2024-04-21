@@ -683,6 +683,10 @@ a:hover {
   margin: 0;
 }
 
+.footer .top-button {
+  position: relative;
+}
+
 .footer .top-button .top {
   background-color: var(--dark);
   height: 40px;
@@ -690,12 +694,14 @@ a:hover {
   border: none;
   border-radius: 50%;
   color: white;
-  right: 38em;
-  bottom: 2em;
   position: fixed;
   font-size: 16px;
   line-height: 40px;
   text-align: center;
   z-index: 9999;
   margin-bottom: 10px;
+  bottom: 100px;
+  left: 50%;
+  right: 1em;
+  bottom: 2em;
 }
